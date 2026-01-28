@@ -1,0 +1,9 @@
+HTML - Hyper Text Markup(tag based <>) Language-
+=>Structure(text,images,audio,videos)
+CSS - Cascading Style Sheet
+=>it decorates the website
+Js - JavaScript
+=>functionality
+
+VSCODE=>microsoft
+
