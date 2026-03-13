@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!-- HTML 5 declaration -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- meta-info about website - unicode text format - it supports multiple lang -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viewport - screen ,by default -100%-->
+    <title>Document</title>
+    <!-- CSS - cascading style sheets -  -->
+    <!-- it decorates our website -->
+    <style>
+        p{
+            font-size: 30px;
+            font-style: italic;
+            font-weight: bold;
+            text-decoration: underline;
+            text-decoration: overline;
+            line-height: 2;
+            word-spacing: 20px;
+            letter-spacing: 2px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-align: left;
+            text-align: right;
+            text-align: center;
+            text-align: justify;
+            color: orange;
+
+        }
+
+        p::first-line{
+            color: aqua;
+        }
+
+        span{
+            color: green;
+        }
+        p::first-letter{
+            font-size: 100px;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem <span>ipsum dolor sit</span> amet consectetur adipisicing elit. Laudantium nesciunt dolorum, quod autem a, pariatur necessitatibus tenetur reiciendis corporis maxime fuga totam ex repellat placeat suscipit, expedita consectetur eligendi! Architecto?</p>
+</body>
+</html>
